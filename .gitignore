@@ -1,0 +1,27 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Trained model weights (usually too large for GitHub)
+*.h5
+*.keras
+*.weights.h5
+saved_model/
+
+# Large data files: uncomment if you don't want to commit them
+# (GitHub rejects files over 100 MB; consider Git LFS or a Drive link)
+# *.npz
+# *.npy
